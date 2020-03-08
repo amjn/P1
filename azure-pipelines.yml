@@ -57,7 +57,7 @@ jobs:
  - deployment: deploymentJob4
    environment: envionment4
    dependsOn: [J1, J2]
-  #  pool: default
+   pool: default
    strategy:
     runOnce:
       deploy:
